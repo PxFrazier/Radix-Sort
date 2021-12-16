@@ -1,5 +1,3 @@
-let array = ['c', 'b', 'a', 'd', 'cab', 'bc', 'abb', 'fbba', 'cb', 'cba', 'aca'];
-
 function radixSort(input_array)
 {
     const MAX = ()=>{
@@ -31,4 +29,5 @@ function radixSort(input_array)
     return input_array;
 }
 
-console.log(radixSort(array));
+console.log(radixSort(['dfg', 'ytr', 'jhgf', 'asd', 'aaasdf', 'z']));
+//Outputs: ['aaasdf', 'asd', 'dfg', 'jhgf', 'ytr', 'z']
