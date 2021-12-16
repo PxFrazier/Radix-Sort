@@ -4,9 +4,7 @@ function radixSort(input_array)
         let maximum = 0;
         input_array.forEach(entry=>{
             if(maximum < entry.length)
-            {
                 maximum = entry.length;
-            }
         });
         return maximum;
     };
