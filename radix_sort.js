@@ -11,8 +11,7 @@ function radixSort(input_array)
         return maximum;
     };
 
-    let maximum = MAX();
-    let iterator = maximum - 1;
+    let iterator = MAX() - 1;
     
     while(iterator >= 0)
     {
